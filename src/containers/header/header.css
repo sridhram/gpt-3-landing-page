@@ -1,0 +1,72 @@
+.gpt3__header--main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  padding: 2rem 3rem;
+}
+.gpt3__header__heading-txt {
+  background: var(--gradient-text);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 3rem;
+  line-height: 1.3;
+}
+
+.gpt3__header--description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.gpt3__header__description-container--description {
+  width: 75%;
+  color: #81afdd;
+  font-size: 1.2rem;
+}
+
+.gpt3__header--email-input {
+  padding: 0.5em 1em;
+  overflow: hidden;
+  outline: none;
+  border: none;
+  width: 65%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.gpt3__header--email-btn {
+  padding: 0.5em 1em;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.gpt3__header--email-container {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.gpt3__header--ppl-container {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 0.7rem;
+}
+
+@media (max-width: 900px) {
+  .gpt3__header--main {
+    grid-template-columns: none;
+  }
+  .gpt3__header--ppl-container {
+    flex-direction: column;
+  }
+  .gpt3__header--description-container {
+    text-align: center;
+    align-items: center;
+  }
+  .gpt3__header--email-container {
+    font-size: 0.7rem;
+  }
+  .gpt3__header--email-input {
+    width: unset;
+  }
+}

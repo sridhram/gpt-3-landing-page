@@ -1,0 +1,112 @@
+.gpt3__whatgpt3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  gap: 3rem;
+
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.gpt3__whatGPT3__main-header {
+  background: var(--gradient-text);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 2rem;
+  line-height: 1.3;
+  width: 50%;
+}
+
+.gpt3__whatgpt3--flex {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.gpt3__whatgpt3--gap {
+  gap: 2rem;
+}
+
+.gpt3__whatgpt3--space-btwn {
+  justify-content: space-between;
+}
+
+.gpt3__whatgpt3--blue-txt {
+  color: #81afdd;
+}
+
+.gpt3__whatgpt3--white-txt {
+  color: #fff;
+}
+
+.gpt3__whatgpt3--orange-txt {
+  color: #ff8a71;
+}
+
+.gpt3__whatgpt3--what-desc {
+  width: 50%;
+}
+
+.gpt3__whatgpt3--border-top-line {
+  background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%),
+    #ffffff;
+  height: 3px;
+  width: 38px;
+  margin-block-end: 1rem;
+}
+
+.gpt3__whatgpt3--padding-desc {
+  padding-block-start: 1rem;
+}
+
+@media (max-width: 650px) {
+  .gpt3__whatgpt3--flex {
+    flex-direction: column;
+  }
+  .gpt3__whatgpt3--what-desc {
+    width: unset;
+  }
+  .gpt3__whatGPT3__main-header {
+    width: unset;
+  }
+}

@@ -1,0 +1,39 @@
+.gpt3__article--desc-container {
+  background: #042c54;
+  color: white;
+  flex-grow: 1;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.gpt3__article--main-container {
+  display: flex;
+  flex-direction: column;
+  max-height: 284px;
+}
+
+.gpt3__article--main-container figure {
+  max-height: 34%;
+}
+
+.gpt3__article__desc-container--date {
+  font-size: 0.7rem;
+}
+
+.gpt3__article--main-container h3 {
+  margin-block: 0.5rem;
+  line-height: 1.3;
+}
+
+.gpt3__article__desc-container--article {
+  margin-block: auto 1em;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 850px) {
+  .gpt3__article--main-container {
+    max-width: 500px;
+    max-height: unset;
+  }
+}
